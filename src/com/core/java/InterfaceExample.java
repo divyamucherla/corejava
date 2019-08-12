@@ -4,6 +4,11 @@ public interface  InterfaceExample {
 
 	void news();
 	
+	default void display() {
+		System.out.println("Base default class");
+	}
+
+	
 }
 
 class Paper implements InterfaceExample{
